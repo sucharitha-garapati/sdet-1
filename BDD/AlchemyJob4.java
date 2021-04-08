@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-    features = "src/main/java/FeatureFiles",
+    features = "src/test/java/features",
     glue = {"TestDefination"},
     tags="@Scenario4",
     plugin = {"html: test-reports"},
